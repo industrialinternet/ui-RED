@@ -1,4 +1,5 @@
 **# ui-RED**
+
 A simple Web UI framework for the brilliant Node-RED IoT platform
 
 ui-RED is light weight framework used to build WebUIs/Dashboards for Things & time-series data.
@@ -24,15 +25,18 @@ The framework comes with a built-in Datapoint editor and simple UI simulator web
 To be of real use ui-Red on Node-RED needs to run all the time.
 This is to ensure that the all Datapoints are kept up to date. 
 
-**// Issues**
+**Issues**
+
 ui-RED is very Alpha and there are still a large number known issues.
 Such as responsive deign errors & web client getting out of sync.
 ui-RED is NOT and nowehere near product grade.
 
-**// Concepual Node-RED flow**
+**Concepual Node-RED flow**
 ![ScreenShot](https://github.com/industrialinternet/ui-RED/blob/master/ui-red-v001.png)
-**// Example UI**
+**Node-RED flow**
+![ScreenShot](https://github.com/industrialinternet/ui-RED/blob/master/ui-red-nr-flow.png)
+**Example UI**
 ![ScreenShot](https://github.com/industrialinternet/ui-RED/blob/master/ui-red.png)
-**// Charts**
+**Charts**
 ![ScreenShot](https://github.com/industrialinternet/ui-RED/blob/master/uired-osio-hist.png)
 
