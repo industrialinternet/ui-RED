@@ -1,4 +1,4 @@
-**# ui-RED**
+**ui-RED**
 
 A simple Web UI framework for the brilliant Node-RED IoT platform
 
