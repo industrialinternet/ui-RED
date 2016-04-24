@@ -44,7 +44,7 @@ ui-RED is NOT and nowehere near product grade.
 
 **ui-Red Node-RED to -> Web client handlers & css**
 
-![ScreenShot](https://github.com/industrialinternet/ui-RED/blob/master/Ui-red-client-01.png)
+
 
 **Datapoint Editor**
 
