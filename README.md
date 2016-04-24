@@ -43,7 +43,7 @@ ui-RED is NOT and nowehere near product grade.
 
 ![ScreenShot](https://github.com/industrialinternet/ui-RED/blob/master/ui-red.png)
 
-**Charts**  Spark lines and some charts are initially populated from persisted historical data and then updated in real-time. The osio chart uses the opensensor.io historical API.
+**Charts**  Spark lines on screen shot above and most charts are initially populated from persisted historical data and then updated in real-time from there on. The osio chart uses the opensensor.io historical API.
 
 ![ScreenShot](https://github.com/industrialinternet/ui-RED/blob/master/uired-osio-hist.png)
 
