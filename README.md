@@ -39,7 +39,8 @@ ui-RED is NOT and nowehere near product grade.
 
 ![ScreenShot](https://github.com/industrialinternet/ui-RED/blob/master/ui-red-nr-flow.png)
 
-**ui-Red Node-RED subflow**
+**ui-Red Node-RED subflow**  ui-RED has authentication using bcryp but this needs re-factoring and UI adding to make it easy to use.
+
 ![ScreenShot](https://github.com/industrialinternet/ui-RED/blob/master/ui-red-subflow.png)
 
 **Example UI**
