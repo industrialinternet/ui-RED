@@ -3,13 +3,12 @@
 A simple Web UI framework for the brilliant Node-RED IoT platform
 
 ui-RED is light weight framework used to build WebUIs/Dashboards for Things & time-series data.
-ui-RED is built entirely in Node-RED and only dependant on one external library Highcharts for graphs and gauges.
-It looks to build on the brilliance and ease of integration of the Node-RED platform.
+ui-RED is built entirely in Node-RED on the server side. And on the client standard HTML, CSS, JS & SVG using Jquery and Highcharts for graphs and gauges.It looks to build on the brilliance and ease of integration of the Node-RED platform.
 
 We’ve attempted to make the framework as simple as possible.
 We hope, allowing inquisitive NRers to develop their own widgets and Web Apps.
 To that end we have avoided using modern client side frameworks such as Angular.js.
-We use the already installed NR libraries such as Jquery & Fort Awesome.
+We use the same libraries as Node-RED such as Jquery & Fort Awesome.
 
 ui-RED is based on a simple JSON based definition and datastore.
 It provides an in-memory and persisted data for the UI.
