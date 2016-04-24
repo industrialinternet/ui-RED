@@ -37,6 +37,6 @@ ui-RED is NOT and nowehere near product grade.
 ![ScreenShot](https://github.com/industrialinternet/ui-RED/blob/master/ui-red-nr-flow.png)
 **Example UI**
 ![ScreenShot](https://github.com/industrialinternet/ui-RED/blob/master/ui-red.png)
-**Charts**
+**Charts**  Some charts are initially populated from persisted historical data and then updated in real-time. The osio chart uses the opensensor.io historical API.
 ![ScreenShot](https://github.com/industrialinternet/ui-RED/blob/master/uired-osio-hist.png)
 
