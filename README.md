@@ -42,7 +42,7 @@ ui-RED is NOT and nowehere near product grade.
 
 ![ScreenShot](https://github.com/industrialinternet/ui-RED/blob/master/ui-red-subflow.png)
 
-** Datapoint Editor**
+**Datapoint Editor**
 
 ![ScreenShot](https://github.com/industrialinternet/ui-RED/blob/master/ui-RED-dp-editor.png)
 
