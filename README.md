@@ -39,6 +39,9 @@ ui-RED is NOT and nowehere near product grade.
 
 ![ScreenShot](https://github.com/industrialinternet/ui-RED/blob/master/ui-red-nr-flow.png)
 
+**ui-Red Node-RED subflow**
+![ScreenShot](https://github.com/industrialinternet/ui-RED/blob/master/ui-red-subflow.png)
+
 **Example UI**
 
 ![ScreenShot](https://github.com/industrialinternet/ui-RED/blob/master/ui-red.png)
