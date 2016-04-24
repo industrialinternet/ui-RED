@@ -29,5 +29,10 @@ ui-RED is very Alpha and there are still a large number known issues.
 Such as responsive deign errors & web client getting out of sync.
 ui-RED is NOT and nowehere near product grade.
 
-
+// Concepual Node-RED flow
 ![ScreenShot](https://github.com/industrialinternet/ui-RED/blob/master/ui-red-v001.png)
+// Example UI
+![ScreenShot](https://github.com/industrialinternet/ui-RED/blob/master/ui-red.png)
+// Charts
+![ScreenShot](https://github.com/industrialinternet/ui-RED/blob/master/uired-osio-hist.png)
+
