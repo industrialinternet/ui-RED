@@ -8,7 +8,7 @@ ui-RED is built entirely in Node-RED on the server side. And on the client stand
 We’ve attempted to make the framework as simple as possible.
 We hope, allowing inquisitive NRers to develop their own widgets and Web Apps.
 To that end we have avoided using modern client side frameworks such as Angular.js.
-If fact many will find our client side bindings very Old Hat! this is intentional.
+If fact many will find our client side bindings very Old Hat, this is intentional!
 
 ui-RED is based on a simple JSON based definition and datastore.
 It provides an in-memory and persisted data for the UI.
@@ -24,11 +24,11 @@ The framework comes with a built-in Datapoint editor and simple UI simulator web
 To be of real use ui-Red on Node-RED needs to run all the time.
 This is to ensure that the all Datapoints are kept up to date. 
 
-**Issues**
+**known issues**
 
 ui-RED is very Alpha and there are still a large number known issues.
 Such as responsive deign errors & web client getting out of sync.
-ui-RED is NOT and nowehere near product grade.
+ui-RED is NOT and nowehere near production grade!
 
 **Concepual Node-RED flow**
 
