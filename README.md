@@ -8,11 +8,12 @@ ui-RED is built entirely in Node-RED on the server side. And on the client stand
 We’ve attempted to make the framework as simple as possible.
 We hope, allowing inquisitive NRers to develop their own widgets and Web Apps.
 To that end we have avoided using modern client side frameworks such as Angular.js.
-If fact many will find our client side bindings very Old Hat, this is intentional!
+In fact many will find our client side bindings very Old Hat, this is intentional!
 
 ui-RED is based on a simple JSON based definition and datastore.
 It provides an in-memory and persisted data for the UI.
-Persistence is file based and shallow (100 records) and is needed to render widgets on page load.
+Persistence is file based and should be kept shallow (e.g. 100 records per data point).
+And is needed to render Spark & Graph widgets on page load.
  
 UI templates are built in HTML and  mustache {{ tags }} and use javascript helper functions to create widgets.
 To render the HTML for a Highchart gauge this line for datapoint 10 is all that is needed.
