@@ -8,7 +8,7 @@ ui-RED is built entirely in Node-RED on the server side. And on the client stand
 We’ve attempted to make the framework as simple as possible.
 We hope, allowing inquisitive NRers to develop their own widgets and Web Apps.
 To that end we have avoided using modern client side frameworks such as Angular.js.
-We use the same libraries as Node-RED such as Jquery & Fort Awesome.
+If fact many will find our client side bindings very Old Hat! this is intentional.
 
 ui-RED is based on a simple JSON based definition and datastore.
 It provides an in-memory and persisted data for the UI.
