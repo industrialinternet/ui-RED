@@ -21,7 +21,7 @@ To render the HTML for a Highchart gauge this line for datapoint 10 is all that 
 {{#renderGauge}}{{#dp10}}dp10::{{tag}}::{{des}}::{{v}}::{{unit}}{{/dp10}} {{/renderGauge}}
 
 The core the framework is the Datapoint this defines what and how inputs to the UI are handled.
-A core datapoint handler function maps in-bound sensor & IO data to datapoints.
+A main datapoint handler function maps in-bound sensor & IO data to datapoints.
 The framework comes with a built-in Datapoint editor.
 We've also built a simple UI simulator Web App to allow NRers to explore the framework.
 
