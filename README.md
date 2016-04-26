@@ -2,12 +2,13 @@
 
 A simple Web UI framework for the brilliant Node-RED IoT platform
 
-ui-RED is light weight framework used to build WebUIs/Dashboards for Things & time-series data.
-ui-RED is built entirely in Node-RED on the server side. And on the client standard HTML, CSS, JS & SVG using Jquery and Highcharts for graphs and gauges.It looks to build on the power and ease of integration of the Node-RED platform.
+ui-RED is a light weight framework used to build WebUIs/Dashboards for Things & time-series data.
+ui-RED is built entirely in Node-RED on the server side. And on the client standard HTML, CSS, JS & SVG two using two libraries Jquery and Highcharts (graphs & gauges). It looks to build on the power and ease of integration of the Node-RED platform.
 
 We’ve attempted to make the framework as simple as possible.
-We hope, allowing inquisitive NRers to develop their own widgets and Web Apps.
-To that end we have avoided using modern client side frameworks such as Angular.js.
+With the hope that inquisitive NRers will explore and learn.
+And then develop their own widgets and Web Apps.
+To that end we have avoided using modern client-side frameworks such as Angular.js.
 In fact many will find our client side bindings very Old Hat, this is intentional!
 
 ui-RED is based on a simple JSON based definition and datastore.
@@ -20,10 +21,12 @@ To render the HTML for a Highchart gauge this line for datapoint 10 is all that 
 {{#renderGauge}}{{#dp10}}dp10::{{tag}}::{{des}}::{{v}}::{{unit}}{{/dp10}} {{/renderGauge}}
 
 The core the framework is the Datapoint this defines what and how inputs to the UI are handled.
-The framework comes with a built-in Datapoint editor and simple UI simulator web App to allow NRers to explore the framework.
+A core datapoint handler function maps in-bound sensor & IO data to datapoints.
+The framework comes with a built-in Datapoint editor.
+We've also built a simple UI simulator Web App to allow NRers to explore the framework.
 
 To be of real use ui-Red on Node-RED needs to run all the time.
-This is to ensure that the all Datapoints are kept up to date. 
+This is to ensure that the all Datapoints are kept up to date.
 
 **known issues**
 
