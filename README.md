@@ -11,13 +11,13 @@ And then develop their own widgets and Web Apps.
 To that end we have avoided using modern client-side frameworks such as Angular.js.
 In fact many will find our client side bindings very Old Hat, this is intentional!
 
-ui-RED is based on a simple JSON based definition and datastore.
-It provides an in-memory and persisted data for the UI.
-Persistence is file based and should be kept shallow (e.g. 100 records per data point).
+ui-RED is based on a simple JSON based definition and cache.
+It provides curent and cached data for the UI.
+The  cache is file based and should be kept shallow (e.g. Max 100 records per data point).
 And is needed to render Spark & Graph widgets on page load.
  
 UI templates are built in HTML and  mustache {{ tags }} and use javascript helper functions to create widgets.
-To render the HTML for a Highchart gauge this line for datapoint 10 is all that is needed.
+For example to render the HTML for a Highchart gauge this line for datapoint 10 is all that is needed.
 {{#renderGauge}}{{#dp10}}dp10::{{tag}}::{{des}}::{{v}}::{{unit}}{{/dp10}} {{/renderGauge}}
 
 The core the framework is the Datapoint this defines what and how inputs to the UI are handled.
@@ -26,12 +26,11 @@ The framework comes with a built-in Datapoint editor.
 We've also built a simple UI simulator Web App to allow NRers to explore the framework.
 
 To be of real use ui-Red on Node-RED needs to run all the time.
-This is to ensure that the all Datapoints are kept up to date.
+This is to ensure that the Datapoint cache is kept up to date.
 
 **known issues**
 
-ui-RED is very Alpha and there are still a large number known issues.
-Such as responsive deign errors & web client getting out of sync.
+ui-RED is very Alpha and there are still a large number of issues.
 ui-RED is NOT and nowehere near production grade!
 
 **Concepual Node-RED flow**
