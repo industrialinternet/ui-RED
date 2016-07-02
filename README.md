@@ -43,7 +43,7 @@ We hope to lanuch in early fall of 2016.
 
 **ui-Red Node-RED subflow**  ui-RED has authentication using bcryp but this needs re-factoring and UI adding to make it easy to use.
 
-![ScreenShot](https://github.com/industrialinternet/ui-RED/blob/master/ui-red-sub-flow-v3.png)
+![ScreenShot](https://github.com/industrialinternet/ui-RED/blob/master/ui-RED-sub-flow-v3.png)
 
 **ui-Red Node-RED to -> Web client handlers & css**
 
