@@ -11,17 +11,16 @@ And then develop their own widgets and Web Apps.
 To that end we have avoided using modern client-side frameworks such as Angular.js.
 In fact many will find our client side bindings very Old Hat, this is intentional!
 
-ui-RED is based on a simple JSON based definition and store.
-It provides curent and cached data for the UI.
-The  cache is file based and should be kept shallow (e.g. Max 100 records per data point).
-And is needed to render Spark & Graph widgets on page load.
+ui-RED is based on a simple JSON definitions and data store.
+Which provides meta data, curent and cached data for the UI.
+The cache is file based and should be kept shallow (e.g. Max 100 records per data point).
+And is needed to render Spark & Graph widgets on page load and for calculating averages etc.
  
-UI templates are built in HTML and  mustache {{ tags }} and use javascript helper functions to create widgets.
-For example to render the HTML for a Highchart gauge this line for datapoint 10 is all that is needed.
-{{#renderGauge}}{{#dp10}}dp10::{{tag}}::{{des}}::{{v}}::{{unit}}{{/dp10}} {{/renderGauge}}
+UI templates are built in HTML and  mustache {{ tags }} and use javascript functions to create HTML widgets and client side javascript. For example to render a Highchart Gauge for datapoint 10 two tags are needed
+{{#renderGauge}}{{dp10}}{{/renderGauge}} for HTML and {{#jsGauge}}{{dp10}}{{/jsGauge}} for javascript.
 
 The core the framework is the Datapoint this defines what and how inputs to the UI are handled.
-A main datapoint handler function maps in-bound sensor & IO data to datapoints.
+A main datapoint handler function maps in-bound sensor & IO data to datapoint store.
 The framework comes with a built-in Datapoint editor.
 We've also built a simple UI simulator Web App to allow NRers to explore the framework.
 
@@ -30,8 +29,9 @@ This is to ensure that the Datapoint cache is kept up to date.
 
 **known issues**
 
-ui-RED is very Alpha and there are still a large number of issues.
-ui-RED is NOT and nowehere near production grade!
+ui-RED is very Beta and there are still a large number of issues.
+ui-RED is NOT production grade!
+We hope to lanuch in early fall of 2016.
 
 **Concepual Node-RED flow**
 
@@ -39,11 +39,11 @@ ui-RED is NOT and nowehere near production grade!
 
 **Node-RED flow**
 
-![ScreenShot](https://github.com/industrialinternet/ui-RED/blob/master/ui-red-nr-flow.png)
+![ScreenShot](https://github.com/industrialinternet/ui-RED/blob/master/ui-RED-flow-v3.png)
 
 **ui-Red Node-RED subflow**  ui-RED has authentication using bcryp but this needs re-factoring and UI adding to make it easy to use.
 
-![ScreenShot](https://github.com/industrialinternet/ui-RED/blob/master/ui-red-subflow.png)
+![ScreenShot](https://github.com/industrialinternet/ui-RED/blob/master/ui-red-sub-flow-v3.png)
 
 **ui-Red Node-RED to -> Web client handlers & css**
 
