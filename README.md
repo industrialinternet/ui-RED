@@ -11,7 +11,7 @@ And then develop their own widgets and Web Apps.
 To that end we have avoided using modern client-side frameworks such as Angular.js.
 In fact many will find our client side bindings very Old Hat, this is intentional!
 
-ui-RED is based on a simple JSON definitions and data store.
+ui-RED is based on a simple JSON definitions and data store which we call Datapoints.
 Which provides meta data, curent and cached data for the UI.
 The cache is file based and should be kept shallow (e.g. Max 100 records per data point).
 And is needed to render Spark & Graph widgets on page load and for calculating averages etc.
