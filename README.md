@@ -1,6 +1,6 @@
 **ui-RED**
 
-A simple Web UI framework for the brilliant Node-RED IoT platform
+A Web UI and server-side framework for the brilliant Node-RED IoT platform
 
 ui-RED is a light weight framework used to build WebUIs/Dashboards for Things & time-series data.
 ui-RED is built entirely in Node-RED on the server side. And on the client standard HTML, CSS, JS & SVG two using two libraries Jquery and Highcharts (graphs & gauges). It looks to build on the power and ease of integration of the Node-RED platform.
